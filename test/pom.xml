@@ -3,7 +3,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <groupId>org.example</groupId>
-    <artifactId>omi24</artifactId>
+    <artifactId>omi25</artifactId>
     <version>1.0.0-SNAPSHOT</version>
 
     <packaging>${packaging}</packaging>
@@ -172,7 +172,7 @@
                     </annotationProcessorPaths>
                     <compilerArgs>
                         <arg>-Amicronaut.processing.group=org.example</arg>
-                        <arg>-Amicronaut.processing.module=omi24</arg>
+                        <arg>-Amicronaut.processing.module=omi25</arg>
                     </compilerArgs>
                 </configuration>
             </plugin>

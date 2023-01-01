@@ -1,4 +1,4 @@
-# omi24
+# omi25
 
 ## Setting up an IDE
 https://docs.micronaut.io/latest/guide/index.html#ideSetup
