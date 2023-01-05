@@ -8,14 +8,15 @@ codenow:
   applicationName: ""
   applicationRuntimeName: ""
   applicationVersion: ""
-  componentRuntimeName: "omi30"
-  componentName: "omi30"
+  componentRuntimeName: "omi25"
+  componentName: "omi25"
   componentVersion: ${project.version}
   templateId: ""
   domainName: "omi-dev.stxcn.codenow.com"
   environmentId: ""
 
 buildNumber: "${env.BUILD_NUMBER}"
+
 
 image:
   pullPolicy: IfNotPresent
@@ -24,7 +25,6 @@ service:
   type: ClusterIP
   port: 80
   externalEndpointEnabled: true
-
 
 fluentbit:
   istioProxy:
@@ -35,7 +35,7 @@ fluentbit:
 configFiles: {}
 environmentVariables: {}
 
-metricsPrometheusEnabled: false
+metricsPrometheusEnabled: true
 metricsPrometheusStep: PT1M
 
 resources: {}
